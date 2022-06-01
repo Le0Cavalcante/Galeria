@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width= device-width, initial-scale= 1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PORTIFÓLIO</title>
+  </head>
+
+  <body>
+    <section id="presentation">
+      <div class="present.container">
+        <div>
+          <h1>Oi,<span></span></h1>
+          <h1>eu sou o<span></span></h1>
+          <h1>Leonardo!<span></span></h1>
+          <h2>Bem-vindo(a)!! <span></span></h2>
+          <h2>
+            Te convido a explorar minha pequena galeria de arte digital.
+            <span></span>
+          </h2>
+          <h2>
+            Trago algumas ilustrações referentes a séries/filmes/jogos/livros
+            que marcaram meus ultimos anos <span></span>
+          </h2>
+          <h2>
+            sou novo na área de desenvolvimento, então sinta-se livre pra deixar
+            dicas e sugestões. <span></span>
+          </h2>
+          <a
+            href="https://www.instagram.com/le0.cavalcante/"
+            type="button"
+            class="social"
+            >INSTAGRAM</a
+          >
+          <a
+            href="https://www.facebook.com/leo.cavalcante01/"
+            type="button"
+            class="social"
+            >FACEBOOK</a
+          >
+          <a
+            href="https://www.linkedin.com/in/leonardo-cavalcante-69b75b1a5/"
+            type="button"
+            class="social"
+            >LINKEDIN</a
+          >
+          <div>
+            <a href="#gallery" type="button" class="cta">GALERIA</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="gallery_container">
+        <div class="gallery_header">
+          <h1 class="section-title"><span>Galeria</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1 class="image-title">Death</h1>
+              <h2 class="serie-name">DC Showcase: Death</h2>
+              <p>
+                Uma releitura da personagem morte presente no DC Showcase e nas
+                obras de Neil Gaiman. O curta animado mostra Vincent, um artista
+                com demônios internos não resolvidos, conhece uma garota
+                misteriosa que o ajuda a aceitar seu legado criativo... e sua
+                eventual morte.
+              </p>
+            </div>
+            <div class="project-image">
+              <img src="./imagens/Death.jpg" alt="Death(Morte)" />
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="project-info">
+              <h1 class="image-title">Cavaleiro sem nome</h1>
+              <h2 class="serie-name">Hollow Knight</h2>
+              <p>
+                Um game indie disponível em todas as plataformas, simples e
+                cativante, podendo ser irritante as vezes. O título traz um
+                pequeno cavaleiro em uma jornada para selar uma infecção
+                maléfica capaz de destruir todo o seu mundo.
+              </p>
+            </div>
+            <div class="project-image">
+              <img src="./imagens/hollow knight.jpg" alt="Cavaleiro sem nome" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1 class="image-title">Musashi</h1>
+              <h2 class="serie-name">Mangá: Vagabond / Série de livros: Musashi</h2>
+              <p>
+                Romance épico baseado diretamente na história japonesa narra um período da vida do mais famoso samurai do Japão, que viveu presumivelmente entre 1584 e 1645. 
+                Mangá baseado na mesma história. 
+                Ambos valem a leitura.
+              </p>
+            </div>
+            <div class="project-image">
+              <img src="./imagens/musashi.jpg" alt="Musashi" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1 class="image-title">Drácula</h1>
+              <h2 class="serie-name">Castlevania</h2>
+              <p>
+                Um dos personagens mais bem desenvolvidos da série. 
+                Essa obra de arte possui 4 temporadas, atualmente disponíveis na Netflix.
+              </p>
+            </div>
+            <div class="project-image">
+              <img src="./imagens/dracul.jpg" alt="Vlad Dracula" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1 class="image-title">Vegeta</h1>
+              <h2 class="serie-name">Dragon Ball</h2>
+              <p>
+                Dispensa apresentações, se você não conhece, sinto lhe informar que és um verme maldito.
+              </p>
+            </div>
+            <div class="project-image">
+              <img src="./imagens/vegeta.jpg" alt="PrincípeSayajin" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1 class="image-title">V</h1>
+              <h2 class="serie-name">V de Vingança</h2>
+              <p>
+                Filme baseado na graphic novel de mesmo nome, onde uma sociedade pós guerra mundial, a Inglaterra é ocupada por um governo fascista e vive sob um regime totalitário. 
+                Na luta pela liberdade, um vigilante, conhecido apenas como V, utiliza-se de táticas terroristas para enfrentar os opressores da sociedade.
+              </p>
+            </div>
+            <div class="project-image">
+              <img src="./imagens/V.jpg" alt="V" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1 class="image-title">Ed</h1>
+              <h2 class="serie-name">Fullmetal Alchemist: Brotherhood</h2>
+              <p>
+                Depois de perderem sua mãe, Alphonse e Edward Elric tentam trazê-la de volta usando uma técnica de alquimia proíbida. Contudo, o princípio básico da alquimia é a 'troca equivalente', e tentar ressucitar alguém custa muito alto. 
+                Ed perde sua perna, e Al perde seu corpo.
+                Assistir somente o Brotherhood... Sim, faz diferença.
+              </p>
+            </div>
+            <div class="project-image">
+              <img src="./imagens/Ed.jpg" alt="Alquimista de aço" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1 class="image-title">Kenobi</h1>
+              <h2 class="serie-name">Star Wars/Obi-Wan Kenobi</h2>
+              <p>
+                De longe um dos melhores mestres no universo star wars. Atualmente conta com série no Disney + .
+              </p>
+            </div>
+            <div class="project-image">
+              <img src="./imagens/hello there.jpg" alt="Mestre Jedi" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1 class="image-title">Baby Yoda</h1>
+              <h2 class="serie-name">The Mandalorian</h2>
+              <p>
+                Companheirinho verde de viagem do caçador de recompensas que leva o nome da série. O mandaloriano é um um guerreiro solitário, que trabalha como caçador de recompensas, viajando por todos os cantos do universo que foram esquecidos e sofrem com o descaso.
+              </p>
+            </div>
+            <div class="project-image">
+              <img src="./imagens/grogu.jpg" alt="mini yoda" />
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
